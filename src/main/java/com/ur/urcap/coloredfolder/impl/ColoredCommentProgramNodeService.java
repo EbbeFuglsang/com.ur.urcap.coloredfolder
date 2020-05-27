@@ -36,10 +36,10 @@ public class ColoredCommentProgramNodeService implements ProgramNodeService {
 	public InputStream getHTML() {
 		if (Locale.getDefault().getLanguage().equals("jp"))
 			return this.getClass()
-					.getResourceAsStream("/com/ur/urcap/valuesetting/impl/ColoredCommentProgramNode_jp.html");
+					.getResourceAsStream("/com/ur/urcap/coloredfolder/impl/ColoredCommentProgramNode_jp.html");
 		else
 			return this.getClass()
-					.getResourceAsStream("/com/ur/urcap/valuesetting/impl/ColoredCommentProgramNode_en.html");
+					.getResourceAsStream("/com/ur/urcap/coloredfolder/impl/ColoredCommentProgramNode_en.html");
 
 	}
 
